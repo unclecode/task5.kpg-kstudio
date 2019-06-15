@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "name": "task5.kpg-kstudio",
+    "builds": [
+        {
+            "src": "*.html",
+            "use": "@now/static"
+        },
+        {
+            "src": "*.css",
+            "use": "@now/static"
+        },
+        {
+            "src": "*.md",
+            "use": "@now/md"
+        },
+        {
+            "src": "server.js",
+            "use": "@now/node"
+        },
+        {
+            "src": "server.py",
+            "use": "@now/python"
+        }
+    ]
+}
